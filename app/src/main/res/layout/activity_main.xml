@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shopping="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wangban.yzbbanban.test_button_buy.MainActivity">
+
+    <me.wangyuwei.shoppoing.ShoppingView
+        android:id="@+id/shopping"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        shopping:sv_bg_color="@color/colorAccent"
+        shopping:sv_text="Brander"
+        shopping:sv_text_size="18sp"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>
